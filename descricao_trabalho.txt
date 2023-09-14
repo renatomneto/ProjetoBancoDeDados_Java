@@ -1,0 +1,7 @@
+Implementação usando a linguagem JAVA com automação de compilação do MAVEN contendo 15 
+classes do trabalho sobre tema ESPORTE que foram modeladas na disciplina ECOT12 em 
+usando framework de persistência Objeto-Relacional Hibernate com o banco de dados MySQL. 
+Pode-se ajustar a modelagem e retirar os padrões aplicados. Duas aplicações:
+Aplicação baseada em terminal para persistir todas classes concretas no banco de dados;
+Aplicação baseada em janela usando biblioteca Java Swing contendo inserção, alteração 
+e remoção no banco de dados de 1 classe que contém 1 ou mais relacionamento associativo.

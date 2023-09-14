@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="futsalPU" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>futsal.Bola</class>
+		<class>futsal.Cartao</class>
+		<class>futsal.Estatistica</class>
+		<class>futsal.Presidente</class>
+		<class>futsal.Jogador</class>
+		<class>futsal.Juiz</class>
+		<class>futsal.Local</class>
+		<class>futsal.Partida</class>
+		<class>futsal.Pessoa</class>
+		<class>futsal.Quadra</class>
+		<class>futsal.Reserva</class>
+		<class>futsal.Time</class>
+		<class>futsal.Titular</class>
+		<class>futsal.TorcidaOrganizada</class>
+		<class>futsal.Treinador</class>
+		<properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/futsal?useTimezone=true&amp;serverTimezone=UTC"/>
+            <property name="javax.persistence.jdbc.user" value="futsal"/>
+            <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.password" value="futsal"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MariaDBDialect"/>
+            <property name="javax.persistence.schema-generation.database.action" value="none"/>
+        </properties>
+    </persistence-unit>
+</persistence>
